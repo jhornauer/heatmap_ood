@@ -17,8 +17,8 @@ if __name__ == '__main__':
                         help='resnet18, resnet50 or wideresnet')
     parser.add_argument('-device', type=str, default='cuda:0', help='device')
     parser.add_argument('-valid_split', type=float)
-    parser.add_argument('-depth', type=int, default=28)
-    parser.add_argument('-width', type=int, default=10)
+    parser.add_argument('-depth', type=int, default=40)
+    parser.add_argument('-width', type=int, default=2)
     args = parser.parse_args()
 
     device = torch.device(args.device)

@@ -60,7 +60,7 @@ def select_dataset(dataset, transform, train):
     return trainset
 
 
-def select_classifier(dataset, arch, num_classes, fw_layers=1, depth=28, width=10):
+def select_classifier(dataset, arch, num_classes, fw_layers=1, depth=40, width=2):
     if dataset == 'cifar10':
         if arch == 'resnet18':
             enc = ResNet18(fw_layers=fw_layers)
