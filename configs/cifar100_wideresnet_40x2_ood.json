@@ -1,0 +1,18 @@
+{
+  "fundamental": {
+    "id_dataset": "cifar100",
+    "ood_dataset": "tinyimages",
+    "num_classes": 100,
+    "arch": "wideresnet",
+    "depth": 40,
+    "width": 2,
+    "z_dim":  128},
+  "optimization":{
+    "batch_size": 200,
+    "lr": 0.0002,
+    "b1": 0.5,
+    "b2": 0.999,
+    "n_epochs": 150},
+  "advanced": {
+    "num_ood":  10000}
+}
