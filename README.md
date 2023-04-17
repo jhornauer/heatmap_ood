@@ -2,6 +2,9 @@
 
 This repository contains the official implementation of our  WACV 2023 paper. 
 
+## Requirements 
+We provide the `environment.yml` file with the required packages. The file can be used to create an Anaconda environment.
+
 ## Datasets
 We use CIFAR-10, CIFAR-100 and Tiny ImageNet as in-distribution datasets for the classifier pretraining. To train the heatmap decoder, we rely on the in-distribution training sets as well as on 80 Million TinyImages for CIFAR-10/CIFAR-100 and Places365 for Tiny ImageNet. 
 We test the CIFAR-10/CIFAR-100 models on the respective in-distribution test set as well as iSUN, LSUN-Crop, LSUN-Resize, SVHN, Textures and Places365. We test the Tiny ImageNet model on iNaturalist, SUN and Textures. 
