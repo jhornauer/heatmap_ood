@@ -143,4 +143,3 @@ dependencies:
     - pyyaml==6.0
     - scikit-learn==1.1.1
     - threadpoolctl==3.1.0
-prefix: /home/julia/anaconda3/envs/robustness_analysis
