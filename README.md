@@ -51,8 +51,8 @@ Please use the following citations when referencing our work:
 @article{Hornauer2022HeatmapbasedOD,
   title={Heatmap-based Out-of-Distribution Detection},
   author={Julia Hornauer and Vasileios Belagiannis},
-  journal={ArXiv},
+  journal={2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year={2022},
-  volume={abs/2211.08115}
+  pages={2602-2611}
 }
 ``` 
