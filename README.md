@@ -2,6 +2,8 @@
 
 This repository contains the official implementation of our  WACV 2023 paper. 
 
+![](examples.png)
+
 ## Requirements 
 We provide the `environment.yml` file with the required packages. The file can be used to create an Anaconda environment.
 
