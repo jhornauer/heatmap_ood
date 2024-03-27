@@ -37,6 +37,7 @@ python3 ood_training.py -config ./configs/cifar10_resnet18_ood.json
 
 The number of used out-of-distribution training samples can be changed with the argument `-num_ood`. 
 The trained heatmap decoder is then placed in a new directory in the folder `checkpoints`. The directory is named with the in-distribution dataset, the classifier architecture and a timestamp. 
+Example checkpoints from trained heatmap decoders can be found here: [checkpoints](https://cloudstore.uni-ulm.de/s/9mCCHeXfHNDFKmk). 
 
 ### Out-of-Distribution Evaluation 
 The trained heatmap decoder can be evaluated with the following command: 
